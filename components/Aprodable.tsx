@@ -4,11 +4,13 @@ import { Button } from "./ui/button";
 export default function Aprodable() {
   return (
     <div className="h-[100vh] flex justify-center items-center">
-      <div className="flex">
-        <div className="">
-          <div className="w-[94px] h-[7px]  bg-red-600"></div>
+      <div className="flex flex-wrap">
+        <div className="mt-40 ml-10 sm:mt-20 sm:ml-10 md:mt-20 md:ml-10 lg:mt-20 xl:mt-20 2xl:mt-20">
+          <div className="w-[50px] h-[4px] sm:h-[5px] md:h-[5px] lg:h-[7px] xl:h-[7px] 2xl:h-[7px]  bg-red-600 sm:w-[60px] md:w-[80px] lg:w-[94px] xl:w-[94px] 2xl:w-[94px]"></div>
           <div>
-            <p className="text-[40px] font-bold mt-10">Approdable Packages</p>
+            <p className="text-[20px] sm:text-[20px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[40px] font-bold mt-10  ">
+              Approdable Packages
+            </p>
             <p className="flex-wrap flex w-[400px] text-[14px] mt-10">
               Problems trying to resolve the conflict between the two major
               realms of Classical physics: Newtonian mechanics
@@ -32,8 +34,8 @@ export default function Aprodable() {
             </svg>
           </div>
         </div>
-        <div className=" flex  ml-20 ">
-          <div className="w-[239px] rounded-lg h-[292px] shadow-lg mr-[24px] px-[24px] flex justify-center flex-col hover:scale-105 transition-all duration-300">
+        <div className=" mt-20 flex flex-wrap ml-10 md:ml-10 lg:ml-20 xl:ml-20 2xl:ml-20 lg:mt-10 xl:mt-10">
+          <div className="w-[239px] rounded-lg h-[292px] shadow-lg mr-[24px] px-[24px] flex justify-center flex-col hover:scale-105 transition-all duration-300 my-2 sm:my-2 md:my-2 lg:my-0 xl:my-0 2xl:my-0">
             <div className="bg-[#95BB7C] w-[70px] h-[76px] rounded-xl flex justify-center items-center">
               <svg
                 width="32"
@@ -74,7 +76,7 @@ export default function Aprodable() {
               The gradual accumulation of information about.
             </p>
           </div>
-          <div className="w-[239px] rounded-lg h-[292px] shadow-lg mr-[24px] px-[24px] flex justify-center flex-col hover:scale-105 transition-all duration-300">
+          <div className="w-[239px] rounded-lg h-[292px] shadow-lg mr-[24px] px-[24px] flex justify-center flex-col hover:scale-105 transition-all duration-300 my-2 sm:my-2 md:my-2 lg:my-0 xl:my-0 2xl:my-0">
             <div className="bg-[#95BB7C] w-[70px] h-[76px] rounded-xl flex justify-center items-center">
               <svg
                 width="32"

@@ -12,7 +12,7 @@ export default function TeamCard({
   profession: string;
 }) {
   return (
-    <div className="border h-[375px] w-[238px] rounded-xl flex items-center flex-col shadow-lg mx-2 hover:scale-105 transition-all duration-300">
+    <div className="border h-[360px] w-[238px] sm:h-[360px] my-2 sm:w-[238px] md:h-[375px] md:w-[238px] lg:h-[375px] lg:w-[238px] xl:h-[375px] xl:w-[238px] 2xl:h-[375px] 2xl:w-[238px] rounded-xl flex items-center flex-col shadow-lg mx-2 hover:scale-105 transition-all duration-300">
       <Image
         className="rounded-t-xl"
         src={img}

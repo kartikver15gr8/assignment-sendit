@@ -3,7 +3,7 @@ import FooterCard from "./FooterCard";
 export default function Footer() {
   return (
     <div className="h-[346px] ">
-      <div className="h-[272px] flex justify-center items-center">
+      <div className="h-[272px] flex  justify-center items-center">
         <FooterCard
           heading="Company Info"
           l1="About Us"
@@ -25,9 +25,11 @@ export default function Footer() {
           l3="Customers"
           l4="API"
         />
-        <div className="flex flex-col  mx-10">
-          <p className="text-[16px] font-bold mb-[20px]">Get In Touch</p>
-          <ul className="flex flex-col gap-y-[20px] text-[#737373] font-bold text-[14px]">
+        <div className="flex flex-col gap-y-[10px] sm:gap-y-[10px] md:gap-y-[20px] lg:gap-y-[20px] xl:gap-y-[20px] 2xl:gap-y-[20px] mx-5 sm:mx-5 md:mx-5 lg:mx-10 xl:mx-10 2xl:mx-10">
+          <p className="text-[12px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] 2xl:text-[16px] font-bold  ">
+            Get In Touch
+          </p>
+          <ul className="flex flex-col gap-y-[10px]  sm:gap-y-[10px] md:gap-y-[20px] lg:gap-y-[20px] xl:gap-y-[20px] 2xl:gap-y-[20px] text-[#737373] font-bold text-[10px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[14px] 2xl:text-[14px]">
             <li className="flex items-center">
               <svg
                 className="mr-2"
@@ -127,7 +129,7 @@ export default function Footer() {
       <div className="h-[74px] flex justify-center bg-[#FAFAFA] items-center">
         <div className="flex items-center justify-between w-[70%]">
           <div className="w-[fit]">
-            <p className="font-bold text-[#737373] text-[14px]">
+            <p className="font-bold text-[#737373] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[14px] xl:text-[14px] 2xl:text-[14px]">
               Made With Love By Figmaland All Right Reserved{" "}
             </p>
           </div>
