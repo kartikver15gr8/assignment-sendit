@@ -3,7 +3,7 @@ import FooterCard from "./FooterCard";
 export default function Footer() {
   return (
     <div className="h-[346px] ">
-      <div className="h-[272px] flex  justify-center items-center">
+      <div className="h-[272px] flex flex-wrap sm:flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap 2xl:flex-nowrap justify-center sm:justify-center  md:justify-center lg:justify-center xl:justify-center 2xl:justify-center items-center">
         <FooterCard
           heading="Company Info"
           l1="About Us"

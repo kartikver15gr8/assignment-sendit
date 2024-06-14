@@ -27,7 +27,7 @@ export default function Landing() {
           </div>
         </div>
       </div>
-      <div className="w-[50%] flex justify-end">
+      <div className="w-[50%] xs:hidden hidden sm:flex  md:flex lg:flex xl:flex 2xl:flex justify-end">
         <Image
           className="w-[95%] h-[100%] "
           src={imgBanner}

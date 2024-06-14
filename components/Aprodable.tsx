@@ -34,7 +34,7 @@ export default function Aprodable() {
             </svg>
           </div>
         </div>
-        <div className=" mt-20 flex flex-wrap ml-10 md:ml-10 lg:ml-20 xl:ml-20 2xl:ml-20 lg:mt-10 xl:mt-10">
+        <div className=" justify-center sm:justify-center  mt-20 flex flex-wrap ml-10 md:ml-10 lg:ml-20 xl:ml-20 2xl:ml-20 lg:mt-10 xl:mt-10">
           <div className="w-[239px] rounded-lg h-[292px] shadow-lg mr-[24px] px-[24px] flex justify-center flex-col hover:scale-105 transition-all duration-300 my-2 sm:my-2 md:my-2 lg:my-0 xl:my-0 2xl:my-0">
             <div className="bg-[#95BB7C] w-[70px] h-[76px] rounded-xl flex justify-center items-center">
               <svg

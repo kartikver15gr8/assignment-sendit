@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function NewsLetter() {
   return (
-    <div className="flex justify-center h-[594px] bg-[#FFF3F3] items-center ">
+    <div className="flex w-[100%] justify-center h-[594px] bg-[#FFF3F3] items-center ">
       <div className="flex-col  items-center   ">
         <div className="flex flex-col items-center ">
           <p className="text-[#95BB7C] font-bold text-[16px]">Newsletter</p>
@@ -18,10 +18,10 @@ export default function NewsLetter() {
         </div>
         <div className="mt-[80px] flex">
           <Input
-            className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[600px] xl:w-[688px] 2xl:w-[688px] h-[58px] "
+            className="w-[200px] sm:w-[250px] md:w-[350px] lg:w-[600px] xl:w-[688px] 2xl:w-[688px] h-[48px] sm:h-[48px] md:h-[58px] lg:h-[58px] xl:h-[58px] 2xl:h-[58px] rounded-r-none   "
             placeholder="Your Email"
           />
-          <Button className="h-[58px] w-[117px] rounded-l-none bg-[#95BB7C] font-bold">
+          <Button className="h-[48px] sm:h-[48px] md:h-[58px] lg:h-[58px] xl:h-[58px] 2xl:h-[58px] w-[117px] rounded-l-none bg-[#95BB7C] font-bold">
             Subscribe
           </Button>
         </div>
